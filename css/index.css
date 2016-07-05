@@ -1,0 +1,65 @@
+*{margin:0;padding:0;}
+body,html,.msg-container,#root{
+	position:relative;
+	height:100%;
+}
+
+.msg-lists{
+	float:left;
+	width:100%;
+}
+
+.msg-list-head{
+	height:32px;
+	line-height:32px;
+	padding-left:20px;
+	border-bottom:1px solid #f2f2f2;
+}
+.msg-list-head-title{
+	font-weight:normal;
+	font-size:14px;
+}
+
+
+.inform-alert-wrap{
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	z-index:408;
+}
+
+.inform-alert{
+	position:fixed;
+	top:50%;
+	left:50%;
+	min-width:300px;
+	max-width:400px;
+	background-color:#fff;
+	transform:translate(-50%,-50%);
+	z-index:410;
+	font-family:"Microsoft YaHei";
+}
+
+.inform-mask{
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color:rgba(000, 000, 000, 0.5);
+	z-index:409;
+}
+
+.inform-alert-title{
+	text-align:center;
+	font-size:14px;
+	display:block;
+	line-height:1;
+	padding:10px;
+}
+
+.inform-alert-body{
+	
+}

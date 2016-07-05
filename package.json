@@ -1,0 +1,25 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.entry.js",
+  "dependencies": {
+    "babel-loader": "^6.2.4",
+    "gulp": "^3.9.1",
+    "gulp-livereload": "^3.8.1",
+    "harmony": "^0.0.1",
+    "jsx-loader": "^0.13.2",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "redux": "^3.5.2",
+    "webpack": "^1.13.1"
+  },
+  "devDependencies": {
+    "immutable": "^3.8.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
