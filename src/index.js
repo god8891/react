@@ -1,17 +1,10 @@
-/**
- * app入口
- */
-
-
-
 import { Provider } from 'react-redux'
-import Route  from './routes';
+import Route  from './route';
 
-import configreStore from './store/index';
+import configreStore from './store';
 
 let store = configreStore();
 let rootElemnt = document.getElementById('app-main');
-
 
 ReactDOM.render(
 	<Provider store={store}>
